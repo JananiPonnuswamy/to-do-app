@@ -12,7 +12,7 @@ app.use(express.json());
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",            // change if needed
-  password: "Begam@1216", // change if needed
+  password: "Password@123", // change if needed
   database: "todo_db",
 });
 
